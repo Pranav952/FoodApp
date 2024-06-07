@@ -1,0 +1,13 @@
+ {% extends 'food/base.html'%}   
+{% block content %}   
+<center>
+<div class="card bg-light mb-3 mt-5" style="max-width: 20rem; height:20rem;">
+    <div class="card-header">Profile Card</div>
+    <div class="card-body">
+        <h5 class="card-title">{{ user.username }}</h5>
+        <p class="card-text">{{ user.email }}</p>
+    </div>
+</center>
+{% endblock %}
+
+
