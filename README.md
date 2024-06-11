@@ -1,48 +1,28 @@
-<p align="center"><a href="https://www.django-rest-framework.org/" target="_blank"><img src="https://www.django-rest-framework.org/img/logo.png" width="400" alt="Django REST Framework Logo"></a></p>
-<p align="center">
-<a href="https://github.com/encode/django-rest-framework/actions"><img src="https://github.com/encode/django-rest-framework/workflows/CI/badge.svg" alt="Build Status"></a>
-<a href="https://pypi.org/project/djangorestframework/"><img src="https://img.shields.io/pypi/dm/djangorestframework.svg" alt="Total Downloads"></a>
-<a href="https://pypi.org/project/djangorestframework/"><img src="https://img.shields.io/pypi/v/djangorestframework.svg" alt="Latest Stable Version"></a>
-<a href="https://opensource.org/licenses/BSD-3-Clause"><img src="https://img.shields.io/pypi/l/djangorestframework.svg" alt="License"></a>
-</p>
-About Django REST Framework
+# Food List Management System
 
-Django REST framework (DRF) is a powerful and flexible toolkit for building Web APIs in Django. It is a highly customizable and robust framework that simplifies the creation of complex APIs, making it a popular choice among developers. Key features include:
+This project is a web application for managing a list of foods, allowing users to add, update, and remove foods, with custom authentication and a custom admin panel for user management. The food list can also be filtered based on price.
 
-Serializer Classes: Easily convert complex data types to and from native Python datatypes for use with RESTful APIs.
-Views and ViewSets: Simplify the process of defining the behavior of your API endpoints.
-Authentication and Permissions: Comprehensive authentication and permission classes for securing your API.
-Browsable API: A built-in, web-browsable API interface for testing and interacting with your API endpoints during development.
-Throttling and Rate Limiting: Control the rate of requests that clients can make to your API.
-Pagination: Easily paginate large querysets to improve performance and usability.
-Versioning: Support for managing different versions of your API.
-Learning Django REST Framework
+## Features
+- Add, update, and remove foods from the list.
+- Custom user login and logout system.
+- Custom admin panel for user management (add/remove users).
+- Filter foods based on price.
 
-Django REST framework offers extensive documentation and learning resources to help developers get started and excel:
+## Technology Stack
+- Django
+- HTML/CSS/Boostrap (Frontend)
+- SQLite (Default Database)
 
-Documentation: Detailed and comprehensive documentation is available on the DRF website, covering all aspects of the framework.
-Tutorial: The DRF Tutorial provides a step-by-step guide to building a simple API.
-Community Resources: Engage with the community and access a variety of tutorials, blog posts, and examples on platforms like Stack Overflow and GitHub.
-Community and Support
+## Requirements
+- Python 3.x
+- Django 3.x or higher
 
-The Django REST framework is supported by a dedicated community of developers and contributors. Here are some ways to engage and contribute:
+## Installation
 
-Contributing: Contribution guidelines are available in the DRF GitHub repository.
-Code of Conduct: Help maintain a welcoming community by following the Code of Conduct.
-Security: Report security issues directly to the maintainers via the security contact form.
-Sponsors and Premium Partners
+1. Clone the repository.
 
-Django REST framework development is funded by various sponsors. If you're interested in becoming a sponsor, visit the DRF sponsors page.
-
-Premium Sponsors
-Sentry: Application monitoring and error tracking.
-Kite: AI-powered coding assistant.
-Stream: Scalable chat and activity feed APIs.
-Retool: Build internal tools remarkably fast.
-Scaleway: Cloud computing infrastructure.
-License
-
-The Django REST framework is open-sourced software licensed under the BSD-3-Clause license.
+```sh
+git clone https://github.com/pranav952/foodlist.git
 
 
 
