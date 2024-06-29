@@ -7,6 +7,7 @@ This project is a web application for managing a list of foods, allowing users t
 - Custom user login and logout system.
 - Custom admin panel for user management (add/remove users).
 - Filter foods based on price.
+- jazzmin admin panel
 
 ## Technology Stack
 - Django
